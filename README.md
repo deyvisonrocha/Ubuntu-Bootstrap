@@ -13,7 +13,8 @@ sudo add-apt-repository ppa:nilarimogard/webupd8 -y &&
 sudo add-apt-repository ppa:linrunner/tlp -y && 
 sudo add-apt-repository ppa:alessandro-strada/ppa -y && 
 sudo add-apt-repository ppa:paolorotolo/copy -y && 
-sudo add-apt-repository ppa:ondrej/php5 -y
+sudo add-apt-repository ppa:ondrej/php5 -y && 
+sudo add-apt-repository ppa:nae-team/ppa -y
 ```
 
 # Update into repositories
@@ -29,7 +30,7 @@ echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | su
 
 # Install applications in command-line
 ```
-sudo apt-get install sublime-text-installer oracle-java8-installer gstreamer0.10-ffmpeg deepin-terminal prime-indicator tlp tlp-rdw google-drive-ocamlfuse copy p7zip-full p7zip-rar pinta git curl zram-config git-cola zsh python-pip legit filezilla vlc apache2 mysql-server mysql-client phpmyadmin mysql-workbench php5-curl php5-mysql php5-dev php5-mcrypt php5-xdebug php5 prelink preload vim nautilus-open-terminal
+sudo apt-get install sublime-text-installer oracle-java8-installer gstreamer0.10-ffmpeg deepin-terminal prime-indicator tlp tlp-rdw google-drive-ocamlfuse copy p7zip-full p7zip-rar pinta git curl zram-config git-cola zsh python-pip legit filezilla vlc apache2 mysql-server mysql-client phpmyadmin mysql-workbench php5-curl php5-mysql php5-dev php5-mcrypt php5-xdebug php5 prelink preload vim nautilus-open-terminal nautilus-actions-extra nautilus-refresh
 
 # Composer
 sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
