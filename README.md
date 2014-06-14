@@ -21,7 +21,7 @@ sudo add-apt-repository ppa:ondrej/php5 -y
 sudo apt-get update
 ```
 
-# Pre-installation
+# Before installation
 * Automated installation (auto accept license for oracle-java8-installer):
 ```
 echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
@@ -44,7 +44,7 @@ curl -L http://mirror.pcbeta.com/google/chrome/deb/pool/main/g/google-chrome-sta
 curl -L http://download.teamviewer.com/download/teamviewer_linux_x64.deb | sudo dpkg -i
 ```
 
-# Pos-installation
+# After installation
 * Disable Google Chrome updates editing `/etc/apt/sources.list.d/google-chrome.list` and add `#` on `deb http://dl.google.com/linux/deb/ stable main`
 * Enable recursive search in Nautilus: `gsettings set org.gnome.nautilus.preferences enable-interactive-search false`
 * Start tlp: `sudo tlp start`
