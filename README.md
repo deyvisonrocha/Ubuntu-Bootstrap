@@ -32,7 +32,7 @@ echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | su
 sudo apt-get install sublime-text-installer oracle-java8-installer gstreamer0.10-ffmpeg deepin-terminal prime-indicator tlp tlp-rdw google-drive-ocamlfuse copy p7zip-full p7zip-rar pinta git curl zram-config git-cola zsh python-pip legit filezilla vlc apache2 mysql-server mysql-client phpmyadmin mysql-workbench php5-curl php5-mysql php5-dev php5-mcrypt php5-xdebug php5 prelink preload
 
 # Composer
-curl -sS https://getcomposer.org/installer | php -- --install-dir=bin --filename=composer
+sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 
 # VirtualBox
 curl -L http://download.virtualbox.org/virtualbox/4.3.12/virtualbox-4.3_4.3.12-93733~Ubuntu~raring_amd64.deb | sudo dpkg -i
