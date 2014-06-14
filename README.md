@@ -29,7 +29,7 @@ echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | su
 
 # Install applications in command-line
 ```
-sudo apt-get install sublime-text-installer oracle-java8-installer gstreamer0.10-ffmpeg deepin-terminal prime-indicator tlp tlp-rdw google-drive-ocamlfuse copy p7zip-full p7zip-rar pinta git curl zram-config git-cola zsh python-pip legit
+sudo apt-get install sublime-text-installer oracle-java8-installer gstreamer0.10-ffmpeg deepin-terminal prime-indicator tlp tlp-rdw google-drive-ocamlfuse copy p7zip-full p7zip-rar pinta git curl zram-config git-cola zsh python-pip legit filezilla vlc apache2 mysql-server-5.6 mysql-client-5.6 phpmyadmin mysql-workbench php5-curl php5-mysql php5-dev php5-mcrypt php5-xdebug php5
 
 # Composer
 curl -sS https://getcomposer.org/installer | php -- --install-dir=bin --filename=composer
@@ -56,3 +56,6 @@ curl -L http://download.teamviewer.com/download/teamviewer_linux_x64.deb | sudo 
 # Install applications 
 * PyCharm Community Edition
 * [Intel Graphics for Ubuntu 14.04 64bits](https://download.01.org/gfx/ubuntu/14.04/main/pool/main/i/intel-linux-graphics-installer/intel-linux-graphics-installer_1.0.5-0intel1_amd64.deb)
+
+# Read
+* [MySQL Server 5.5 to 5.6 Upgrading](http://dev.mysql.com/doc/refman/5.6/en/upgrading.html)
