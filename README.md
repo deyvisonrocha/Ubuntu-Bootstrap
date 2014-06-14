@@ -29,19 +29,10 @@ echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | su
 
 # Install applications in command-line
 ```
-sudo apt-get install sublime-text-installer oracle-java8-installer gstreamer0.10-ffmpeg deepin-terminal prime-indicator tlp tlp-rdw google-drive-ocamlfuse copy p7zip-full p7zip-rar pinta git curl zram-config git-cola zsh python-pip legit filezilla vlc apache2 mysql-server mysql-client phpmyadmin mysql-workbench php5-curl php5-mysql php5-dev php5-mcrypt php5-xdebug php5 prelink preload
+sudo apt-get install sublime-text-installer oracle-java8-installer gstreamer0.10-ffmpeg deepin-terminal prime-indicator tlp tlp-rdw google-drive-ocamlfuse copy p7zip-full p7zip-rar pinta git curl zram-config git-cola zsh python-pip legit filezilla vlc apache2 mysql-server mysql-client phpmyadmin mysql-workbench php5-curl php5-mysql php5-dev php5-mcrypt php5-xdebug php5 prelink preload vim
 
 # Composer
 sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
-
-# VirtualBox
-curl -L http://download.virtualbox.org/virtualbox/4.3.12/virtualbox-4.3_4.3.12-93733~Ubuntu~raring_amd64.deb | sudo dpkg -i
-
-# Google Chrome v34
-curl -L http://mirror.pcbeta.com/google/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_34.0.1847.137-1_amd64.deb | sudo dpkg -i
-
-# TeamViwer
-curl -L http://download.teamviewer.com/download/teamviewer_linux_x64.deb | sudo dpkg -i
 ```
 
 # After installation
@@ -55,6 +46,9 @@ curl -L http://download.teamviewer.com/download/teamviewer_linux_x64.deb | sudo 
 * [Generate ssh keys to bitbucket.org and github.com](https://help.github.com/articles/generating-ssh-keys)
 
 # Install applications 
+* [VirtualBox](http://www.virtualbox.org)
+* [Google Chrome v34](http://mirror.pcbeta.com/google/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_34.0.1847.137-1_amd64.deb)
+* [TeamViewer](http://download.teamviewer.com/download/teamviewer_linux_x64.deb)
 * PyCharm Community Edition
 * [Intel Graphics for Ubuntu 14.04 64bits](https://download.01.org/gfx/ubuntu/14.04/main/pool/main/i/intel-linux-graphics-installer/intel-linux-graphics-installer_1.0.5-0intel1_amd64.deb)
 
