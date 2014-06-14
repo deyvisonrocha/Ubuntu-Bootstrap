@@ -52,6 +52,7 @@ curl -L http://download.teamviewer.com/download/teamviewer_linux_x64.deb | sudo 
 * Use Google Drive for documents: `http://www.webupd8.org/2013/09/mount-google-drive-in-linux-with-google.html`
 * Run Copy.com client: `sudo /opt/copy-client/CopyAgent -installOverlay` and restart Nautilus: `nautilus -q`
 * If you have any problems with the Copy.com indicador client, read more: http://www.webupd8.org/2014/06/fix-copycom-indicator-menu-for-ubuntu.html
+* [Generate ssh keys to bitbucket.org and github.com](https://help.github.com/articles/generating-ssh-keys)
 
 # Install applications 
 * PyCharm Community Edition
