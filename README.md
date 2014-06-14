@@ -4,7 +4,7 @@ Ubuntu-Bootstrap
 It's my bootstrap with route to install applications and settings on Ubuntu environment.
 
 # Add repositories first
-'''
+```
 sudo add-apt-repository ppa:webupd8team/sublime-text-3 -y && 
 sudo add-apt-repository ppa:webupd8team/java -y && 
 sudo add-apt-repository ppa:mc3man/trusty-media -y && 
@@ -14,21 +14,21 @@ sudo add-apt-repository ppa:linrunner/tlp -y &&
 sudo add-apt-repository ppa:alessandro-strada/ppa -y && 
 sudo add-apt-repository ppa:paolorotolo/copy -y && 
 sudo add-apt-repository ppa:ondrej/php5 -y
-'''
+```
 
 # Update into repositories
-'''
+```
 sudo apt-get update
-'''
+```
 
 # Pre-installation
 * Automated installation (auto accept license for oracle-java8-installer):
-'''
+```
 echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
-'''
+```
 
 # Install applications in command-line
-'''
+```
 sudo apt-get install sublime-text-installer oracle-java8-installer gstreamer0.10-ffmpeg deepin-terminal prime-indicator tlp tlp-rdw google-drive-ocamlfuse copy p7zip-full p7zip-rar pinta git curl zram-config git-cola zsh python-pip legit
 
 # Composer
@@ -42,7 +42,7 @@ curl -L http://mirror.pcbeta.com/google/chrome/deb/pool/main/g/google-chrome-sta
 
 # TeamViwer
 curl -L http://download.teamviewer.com/download/teamviewer_linux_x64.deb | sudo dpkg -i
-'''
+```
 
 # Pos-installation
 * Disable Google Chrome updates editing `/etc/apt/sources.list.d/google-chrome.list` and add `#` on `deb http://dl.google.com/linux/deb/ stable main`
