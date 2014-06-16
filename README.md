@@ -40,7 +40,7 @@ sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr
 * Disable Google Chrome updates editing `/etc/apt/sources.list.d/google-chrome.list` and add `#` on `deb http://dl.google.com/linux/deb/ stable main`
 * Enable recursive search in Nautilus: `gsettings set org.gnome.nautilus.preferences enable-interactive-search false`
 * Start tlp: `sudo tlp start`
-* Make sure `laptop-mode-tools' is not installed, run: `sudo apt-get remove laptop-mode-tools` to remove if it's installed.
+* Make sure `laptop-mode-tools` is not installed, run: `sudo apt-get remove laptop-mode-tools` to remove if it's installed.
 * Use Google Drive for documents: `http://www.webupd8.org/2013/09/mount-google-drive-in-linux-with-google.html`
 * Run Copy.com client: `sudo /opt/copy-client/CopyAgent -installOverlay` and restart Nautilus: `nautilus -q`
 * If you have any problems with the Copy.com indicador client, read more: http://www.webupd8.org/2014/06/fix-copycom-indicator-menu-for-ubuntu.html
