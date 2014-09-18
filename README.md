@@ -13,8 +13,9 @@ sudo add-apt-repository ppa:nilarimogard/webupd8 -y &&
 sudo add-apt-repository ppa:linrunner/tlp -y && 
 sudo add-apt-repository ppa:alessandro-strada/ppa -y && 
 sudo add-apt-repository ppa:paolorotolo/copy -y && 
-sudo add-apt-repository ppa:ondrej/php5 -y && 
-sudo add-apt-repository ppa:nae-team/ppa -y
+sudo add-apt-repository ppa:nae-team/ppa -y &&
+sudo add-apt-repository ppa:saiarcot895/myppa -y &&
+sudo add-apt-repository ppa:webupd8team/y-ppa-manager -y
 ```
 
 # Update into repositories
@@ -48,10 +49,9 @@ sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr
 
 # Install applications 
 * [VirtualBox](http://www.virtualbox.org)
-* [Google Chrome v34](http://mirror.pcbeta.com/google/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_34.0.1847.137-1_amd64.deb)
 * [TeamViewer](http://download.teamviewer.com/download/teamviewer_linux_x64.deb)
 * PyCharm Community Edition
-* [Intel Graphics for Ubuntu 14.04 64bits](https://download.01.org/gfx/ubuntu/14.04/main/pool/main/i/intel-linux-graphics-installer/intel-linux-graphics-installer_1.0.5-0intel1_amd64.deb)
+* [Intel Graphics for Ubuntu 14.04 64bits](https://01.org/linuxgraphics/downloads)
 
 # Read
 * [MySQL Server 5.5 to 5.6 Upgrading](http://dev.mysql.com/doc/refman/5.6/en/upgrading.html)
